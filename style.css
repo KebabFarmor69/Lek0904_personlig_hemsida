@@ -3,48 +3,112 @@
   padding: 0;
 }
 
+header {
+  background-color: #373f4d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: -200px;
+  margin-right: -200px;
+  color: #d3999a;
+  border: 20px #d3999a solid;
+  text-size-adjust: 100px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
 body {
-  background-color: #fefefd;
-  margin: 100px;
+  background-color: #171717;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h1 {
-  color: #fefefd;
-  background-color: #3cc185;
+  color: #d3999a;
+  background-color: #3e0f33;
+  border-radius: 20px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 50px;
-  border: 20px #06aab8 solid;
 }
 
 h2 {
-  color: #1f3026;
-  background-color: #8db99a;
+  color: #d3999a;
+  background-color: #3e0f33;
+  border-radius: 20px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
 }
 
 h3 {
-  color: #1f3026;
-  background-color: #8db99a;
+  color: #584a56;
+  background-color: #d3999a;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article {
-  color: black;
-  background-color: #f4f4ec;
+  border-radius: 30px;
+  color: #e5d0b4;
+  background-color: #5f575d;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   shape-margin: 100px;
 }
 
-.centered {
-  text-align: center;
+.innerArticle {
+  border-radius: 20px;
+  border: #373f4d 10px solid;
 }
 
 p {
   text-align: center;
   margin: 70px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border: 20px #373f4d solid;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #373f4d;
+}
+
+li a {
+  color: #b64876;
+  line-height: 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+  transition: all 800ms;
+}
+
+li a:hover {
+  color: #373f4d;
+  background-color: #b64876;
+  border-radius: 10px;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #b64876;
+  text-align: center;
+  padding: 1%;
 }
